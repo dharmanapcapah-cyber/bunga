@@ -35,5 +35,7 @@ Route::post('/register', [FormController::class, 'daftar']);
 //  return view('layout/master');
 //});
 
-
+Route::get('/master', function () {
+  return view('layout/master');
+});
 
